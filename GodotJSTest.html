@@ -3,6 +3,8 @@
     <head>
         <title>Loading...</title>
         <meta charset="UTF-8">
+	<meta http-equiv="Cross-Origin-Opener-Policy" content="same-origin">
+	<meta http-equiv="Cross-Origin-Embedder-Policy" content="require-corp">
         <style>
             #loading {
                 position: fixed;
@@ -45,7 +47,7 @@
         <canvas id="canvas"></canvas>
         <script src="GodotJSTest.js"></script>
         <script>
-            var engine = new Engine({"args":[],"canvasResizePolicy":2,"executable":"GodotJSTest","experimentalVK":false,"fileSizes":{"GodotJSTest.pck":16496,"GodotJSTest.wasm":49023618},"focusCanvas":true,"gdextensionLibs":[]});
+            var engine = new Engine({"args":[],"canvasResizePolicy":2,"executable":"GodotJSTest","experimentalVK":false,"fileSizes":{"GodotJSTest.pck":40656,"GodotJSTest.wasm":49023618},"focusCanvas":true,"gdextensionLibs":[]});
             engine.startGame();
         </script>
         <script>
